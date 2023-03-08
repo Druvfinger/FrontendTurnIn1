@@ -7,12 +7,50 @@
     text-decoration: underline;
     margin-bottom: 0;
 }
+.link-menu{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.contact{
+    padding-right: 80px;
+    padding-left:  80px;
+}
+.portfolio{
+    padding-right: 80px;
+    padding-left:  80px;
+}
+.homepage{
+    padding-right: 80px;
+    padding-left:  80px;
+}
+.contact:hover{
+    color: black;
+    text-decoration: solid;
+}
+.portfolio:hover{
+    color: black;
+    text-decoration: solid;
+}
+.homepage:hover{
+    color: black;
+    text-decoration: solid;
+}
 .portrait{
-    width:256px;
     height: 329px;
-    display: block;
+    border-radius: 80px;
+    border:solid 10px burlywood;
     margin-bottom: 5px;
-    border: 5px;
+}
+.meme{
+    margin-left: 0;
+}
+.pics{
+    clear: auto;
 }
 .about-header{
     margin-top: 0;
@@ -35,30 +73,138 @@
     width: 250px;
     margin-bottom: 200px;
 }
+.aboutMe-block{
+    vertical-align: top;
+}
 .footnote{
     text-align: center;
     margin-bottom: 0;
 }
-.link-menu{
+.name{
     margin-top: 0;
+    margin-bottom: 5px;
     text-align: center;
-    font-family: Arial;
-    font-size: 18px;
+}
+.age{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.phone-number{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.email{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.span-name{
     font-weight: bold;
 }
-.contact{
-    padding-right: 40px;
-    padding-left:  40px;
+.span-age{
+    font-weight: bold;
 }
-.portfolio{
-    padding-right: 40px;
-    padding-left:  40px;
+.span-phone{
+    font-weight: bold;
 }
-.contact:hover{
-    color: black;
+.span-email{
+    font-weight: bold;
+}
+.span-github{
+    font-weight: bold;
+    text-align: center;
+}
+.github-button{
+    background-color: rgb(97, 25, 107);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: opacity 0.15s;
+}
+.github-line{
+    display: block;
+    text-align: center;
+}
+.github-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.github-button:active{
+    opacity: 0.5;
+}
+.github-name{
+    color: white;
+    font-family: Arial;
+    text-decoration: solid white;
+}
+.about-contact{
+    font-family: "Sofia", sans-serif;
+    font-size: 42px;
+    font-style: italic;            
+    color: burlywood;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.map-block{
+    display: block;
+    text-align: center;
+    margin-left: 30px;
+}
+.portfolio-header{
+   font-family: "Sofia", sans-serif;
+    font-size: 42px;
+    font-style: italic;            
+    color: burlywood;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.secret-block{
+    text-align: center;
+}
+.secret{
+    color: grey;
     text-decoration: solid;
+    font-size: 18px;
+    margin-left: 30px;
 }
-.portfolio:hover{
-    color: black;
-    text-decoration: solid;
+.memory-picture{
+    height: 274px;
+    display: block;
+}
+.list-block{
+    text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.questionscreen{
+    height: 274px;
+    margin-right: 200px;
+    vertical-align: top;
+}
+.categoryscreen{
+    height: 274px;
+    vertical-align: top;
+}
+.homescreen-picture{
+    height: 274px;
+    vertical-align: top;
+}
+.portfolio-subheader{
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 25px;
 }
